@@ -25,13 +25,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  width: 400px;
+  min-width: 200px;
+  max-width: 350px;
 }
 
 .sub_container_heading {
   font-size: 40px;
   color: #333333;
+  text-align: center;
 }
 
 .timer_container {
